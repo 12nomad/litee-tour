@@ -17,11 +17,6 @@ const PostCard = ({
   layout = "horizontal",
   reverse = false,
 }: IPostCard) => {
-  console.log(post.attributes.image);
-  console.log(
-    `${process.env.NEXT_PUBLIC_STRAPI_URL}${post.attributes.image.data.attributes.url}`
-  );
-
   return (
     <div>
       <Link
@@ -37,7 +32,7 @@ const PostCard = ({
             reverse ? "md:order-last" : ""
           }`}
           alt={post.attributes.title}
-          src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${post.attributes.image.data.attributes.url}`}
+          src={post.attributes.image.data.attributes.url}
           width={600}
           height={300}
         />
