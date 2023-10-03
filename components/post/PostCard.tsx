@@ -5,7 +5,6 @@ import PostContent from "./PostContent";
 import { StrapiPost } from "../../interfaces/strapi.interface";
 
 interface IPostCard {
-  // post: Post;
   post: StrapiPost;
   lang: string;
   layout?: "vertical" | "horizontal";
@@ -33,7 +32,7 @@ const PostCard = ({
             reverse ? "md:order-last" : ""
           }`}
           alt={post.attributes.title}
-          src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${post.attributes.image.data.attributes.url}`}
+          src={post.attributes.image.data.attributes.url}
           width={600}
           height={300}
         />
