@@ -69,7 +69,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     (el) =>
       !(
         el.url.includes("/en/visite") ||
-        el.url.includes("/en/expérience") ||
+        el.url.includes("/en/experiences") ||
         el.url.includes("/fr/tour") ||
         el.url.includes("/fr/experience")
       )

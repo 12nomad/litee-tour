@@ -15,7 +15,7 @@ const PostDetail = ({ post, lang }: IPostDetail) => {
       <Image
         priority
         className="rounded-md object-cover object-center h-[300px] md:h-[500px] mt-6"
-        src={post.attributes.image.data.attributes.url}
+        src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${post.attributes.image.data.attributes.url}`}
         width={1280}
         height={500}
         alt={post.attributes.title}

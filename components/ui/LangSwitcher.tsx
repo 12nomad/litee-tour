@@ -24,7 +24,7 @@ const LangSwitcher = ({ lang }: ILangSwitcher) => {
     else if (subPath[2] && subPath[2] !== "post" && lang === "en")
       subPath[2] === "tour"
         ? (subPath[2] = "visite")
-        : (subPath[2] = "expérience");
+        : (subPath[2] = "experiences");
 
     return subPath.join("/");
   };
