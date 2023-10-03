@@ -1,0 +1,33 @@
+{
+  "navigation": {
+    "links": {
+      "tour": "Visite",
+      "tourSlug": "visite",
+      "experience": "Expérience",
+      "exprerienceSlug": "expérience"
+    }
+  },
+  "buttons": {
+    "readMore": "Lire la suite"
+  },
+  "cta": {
+    "title": "Explorez le monde!",
+    "description": "L'aventure vous attend🌏. Le monde regorge de merveilles que vous n'avez pas encore vues. Ne renoncez jamais à la chance de les voir🤞.",
+    "button": "S'inscrire",
+    "placeholder": "Écrivez votre adresse e-mail.",
+    "subscriberText1": "Rejoignez-nous",
+    "subscriberText2": "abonnés déjà souscris!"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés",
+    "link1": "Ressources",
+    "link2": "Suivez-nous",
+    "link3": "Mentions légales",
+    "link3Text1": "Politique de confidentialité",
+    "link3Text2": "Conditions générales"
+  },
+  "meta": {
+    "website": "Litee Tour 🗺",
+    "description": "Voyagez avec nous!"
+  }
+}

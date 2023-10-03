@@ -1,0 +1,33 @@
+{
+  "navigation": {
+    "links": {
+      "tour": "Tour",
+      "tourSlug": "tour",
+      "experience": "Experience",
+      "exprerienceSlug": "experience"
+    }
+  },
+  "buttons": {
+    "readMore": "Read More"
+  },
+  "cta": {
+    "title": "Explore the world!",
+    "description": "Adventure is out there🌏. The world is full of wonderful things you haven't seen yet. Don't ever give up on the chance of seeing them🤞.",
+    "button": "Sign Up",
+    "placeholder": "Write your email.",
+    "subscriberText1": "Join our",
+    "subscriberText2": "subscribers now!"
+  },
+  "footer": {
+    "copyright": "All rights are reserved",
+    "link1": "Resources",
+    "link2": "Follow Us",
+    "link3": "Legal",
+    "link3Text1": "Privacy Policy",
+    "link3Text2": "Terms & Conditions"
+  },
+  "meta": {
+    "website": "Litee Tour 🗺",
+    "description": "Travel with us!"
+  }
+}
