@@ -5,7 +5,6 @@ import PostContent from "./PostContent";
 import { StrapiPost } from "../../interfaces/strapi.interface";
 
 interface IPostCard {
-  // post: Post;
   post: StrapiPost;
   lang: string;
   layout?: "vertical" | "horizontal";
@@ -18,6 +17,11 @@ const PostCard = ({
   layout = "horizontal",
   reverse = false,
 }: IPostCard) => {
+  console.log(post.attributes.image);
+  console.log(
+    `${process.env.NEXT_PUBLIC_STRAPI_URL}${post.attributes.image.data.attributes.url}`
+  );
+
   return (
     <div>
       <Link
