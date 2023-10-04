@@ -1,8 +1,8 @@
 import { MetadataRoute } from "next";
 
-import { StrapiCategory, StrapiPost } from "../interfaces/strapi.interface";
+import { StrapiPost, StrapiCategory } from "../../interfaces/strapi.interface";
 
-const getPostsAndCategories = async () => {
+export const getPostsAndCategories = async () => {
   const [posts, categories] = await Promise.all([
     fetch(
       `${process.env.NEXT_PUBLIC_STRAPI_URL}/api/posts?publicationState=live&locale=all`,
