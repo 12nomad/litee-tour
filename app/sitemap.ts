@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-import { StrapiPost, StrapiCategory } from "../../interfaces/strapi.interface";
+import { StrapiPost, StrapiCategory } from "../interfaces/strapi.interface";
 
 export const getPostsAndCategories = async () => {
   const [posts, categories] = await Promise.all([
