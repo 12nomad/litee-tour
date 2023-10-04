@@ -46,6 +46,9 @@ export const generateMetadata = async ({
         fr: `${process.env.NEXT_PUBLIC_SITE_URL}/fr`,
       },
     },
+    verification: {
+      google: "IfaxOc0R5l0wGI7LKPuVYaX-m4_0zKzKms3YLcMPLkk",
+    },
   };
 };
 
